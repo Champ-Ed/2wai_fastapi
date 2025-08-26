@@ -67,7 +67,8 @@ Production-ready FastAPI server providing:
 - **POST /chat**: Main conversation endpoint
 - **GET /health**: Health check endpoint
 - **GET /disconnect**: Clean DeepLake disconnection
-- **Enhanced Debugging**: Comprehensive RAG performance logging
+- **Enhanced Debugging**: Comprehensive RAG performance loggin
+- **GET /docs**: Complete FASTAPI Documentation
 
 #### 3. `streamlit_app.py` - Web Interface
 Interactive web application with:
@@ -339,6 +340,7 @@ Debug logs include:
 - **Tracing**: Full conversation traces
 - **Performance**: Response times and token usage
 - **Debugging**: Error tracking and analysis
+
 
 
 
