@@ -84,6 +84,9 @@ Centralized OpenAI client with:
 - Consistent model usage across components
 - Error handling and retry logic
 
+#### 5. `ingestion_deeplake.py` - Standalone file to upload pdf/text data files to deeplake
+
+
 ### Data Flow
 
 ```
@@ -336,5 +339,6 @@ Debug logs include:
 - **Tracing**: Full conversation traces
 - **Performance**: Response times and token usage
 - **Debugging**: Error tracking and analysis
+
 
 
